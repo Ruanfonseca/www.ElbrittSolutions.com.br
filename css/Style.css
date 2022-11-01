@@ -695,7 +695,7 @@ body {
     .selecaoServicos{
         --padding-container:60px 0;
 
-        
+
     }
     .selecaoServicos-container{
         grid-template-columns: 28px 1fr 28px;
@@ -748,6 +748,83 @@ body {
 
 
 
+
+
+
+@media(max-width:450px){
+    .heroTitle{
+        font-size: 1rem;
+    }
+    .heroParagrafo{
+        color: #e5e5f7;
+        font-size: 1rem;
+    }
+    .subtitulo{
+        font-size: 1.8rem;
+    }
+    .servicosElement{
+        width: 90%;
+    }
+    .servicosElement-melhor{
+        width: 90%;
+        /*padding:40px*/
+    }
+    .servicosItem{
+        font-size: 2rem;
+    }
+    .selecaoServicos{
+        --padding-container:60px 0;
+
+        
+    }
+    .selecaoServicos-container{
+        grid-template-columns: 28px 1fr 28px;
+        gap:.9em;
+    }
+    .selecaoServicosArrow{
+        width: 100%;
+    }
+    .selecaoServicos-Especialidade{
+        margin-top: 15px;
+    }
+    .duvidas-titulo{
+        font-size: 1rem;
+    }
+
+    .footer__title{
+        justify-self: start;
+        margin-bottom: 15px;
+    }
+
+    .nav--footer{
+        padding-bottom: 60px;
+    }
+
+    .nav__link--footer{
+        justify-content: space-between;
+    }
+
+    .footer__inputs{
+        flex-wrap: wrap;
+    }
+
+    .footer__input{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .footer__submit{
+        margin-right: auto;
+        margin-left: 0;
+        
+
+        /* 
+        margin:0;
+        width: 100%;
+        */
+    }
+}
 
 
 
