@@ -396,7 +396,9 @@ body {
 .testimony{
     background-color: #e5e5f7;
 }
-
+.testimony__review{
+color: #e5e5f7;
+}
 .testimony__container{
     display: grid;
     grid-template-columns: 50px 1fr 50px;
