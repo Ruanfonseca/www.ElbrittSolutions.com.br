@@ -759,9 +759,13 @@ body {
         color: #e5e5f7;
         font-size: 1rem;
     }
+    .conhecimento{
+        width: 90%;
+    }
     .subtitulo{
         font-size: 1.8rem;
     }
+
     .servicosElement{
         width: 90%;
     }
@@ -774,8 +778,6 @@ body {
     }
     .selecaoServicos{
         --padding-container:60px 0;
-
-        
     }
     .selecaoServicos-container{
         grid-template-columns: 28px 1fr 28px;
