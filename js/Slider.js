@@ -1,6 +1,6 @@
 (function(){
     
-    const sliders = [...document.querySelectorAll('.testimony__body')];
+    const sliders = [...document.querySelectorAll('.testimony__body')];//enquanto existe slide no array
     const buttonNext = document.querySelector('#next');
     const buttonBefore = document.querySelector('#before');
     let value;   
