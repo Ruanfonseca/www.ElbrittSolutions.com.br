@@ -65,6 +65,12 @@ body {
 
 .SelectIdiomas{
     border-radius: 20%;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+.OpSelect{
+    color: #000;
 }
 .CorDeFundo{
    background-color: #1d293f;
@@ -657,6 +663,10 @@ color: #e5e5f7;
         cursor: pointer;
     }
 
+    .OpSelect{
+        color: #fff;
+    }
+ 
     .heroTitle {
         font-size: 2.5rem;
     }
@@ -753,6 +763,9 @@ color: #e5e5f7;
     .heroParagrafo{
         color: #e5e5f7;
         font-size: 1rem;
+    }
+    .OpSelect{
+        color: #fff;
     }
     .subtitulo{
         font-size: 1.8rem;
