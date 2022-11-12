@@ -136,6 +136,18 @@ body {
 
 
 /*************************************fim-main****************************************/
+/************************************texto-serviço************************************/
+
+.max h3{
+    /*o max pega o maior valor entre os dois*/
+    font-size: max(60px,5vw); 
+}
+.min h3{
+    /*o min pega o menor valor entre os dois*/
+
+    font-size: min(2.5rem,10vw);
+}
+
 
 /*************************************Hero Container****************************************/
 .heroContainer {
